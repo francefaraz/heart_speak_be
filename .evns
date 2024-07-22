@@ -1,1 +1,1 @@
-export MONGODB_URL="mongodb+srv://faraz:affa@cluster0.xwnk6.mongodb.net/heart_speak?retryWrites=true&w=majority"
+export MONGODB_URL="mongodb+srv://username:password@cluster0.xwnk6.mongodb.net/heart_speak?retryWrites=true&w=majority"
