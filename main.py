@@ -9,10 +9,6 @@ from app.services.user_service import UserService
 from app.services.email_service import EmailService
 from app.services.push_service import PushService
 from app.services.quote_service import QuoteService
-import sys
-import os
-
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 def configure(binder: Binder):
     binder.bind(UserService, to=UserService, scope=singleton)
